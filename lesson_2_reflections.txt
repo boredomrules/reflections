@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates the '.git' directory in the repository's directory and makes it
+possible for you to commit the versions of your project. All of the initializing
+procedure can be made offline.
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+
+Staging area provides an opportunity to complete the commits in different ways,
+allowing you to add different files to a repository from your working directory
+using different commits, not in a single one. Sometimes it can really help
+to support logic behind your committing style.
