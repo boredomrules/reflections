@@ -1,0 +1,59 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Usually, we encounter some type of bugs, which were born by typos, brainlags
+or any other kind of mechanical/low attention mistakes, which are obviously
+not fundamental, but sometimes become very hard to realise.
+
+The 'diff' command ('FC' == 'File Compare') allows us to easily find these bugs
+and check the difference between versions of the project.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+As the progressive and successful specialist in any kind of job, we might review
+our working process to discover some points that we can work more on and become
+better. As a programmer, that's not only a possibility that you might want to do
+some review - that is the exact need for everyone.
+
+What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved, like
+Google Docs does?
+
+Whilst we are writing code, automated commits can break the logic behind version
+control. Imagine if you were writing new function or changing some existing one,
+and automation rule was triggered right in the middle of your work: in that case
+the commited version might not compile at all. We do not want that for sure,
+so we want to manually commit the changes. Additionally, we can make logical
+decisions about choosing right point to commit at, which tend to have positive
+influence to our project.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Different purposes require different service architecture. Objectively, there
+aren't generally 'good' or 'bad' choices talking about version control systems,
+there are only preferences applying to kind of problems they are designed
+to solve.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+You can use git log command to get all the commit history of the project, find
+needed one and then do whatever you need. Diff command used to check difference.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+With version control systems, you can always be confident with doing your job,
+because at any moment of time you can analyze previous project versions,
+easily get difference between them and revert changes back to neutralize bugs.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try using Git for version control of my personal pet projects to
+get some experience and right feeling of its best uses.
