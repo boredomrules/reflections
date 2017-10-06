@@ -8,8 +8,15 @@ procedure can be made offline.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-
 Staging area provides an opportunity to complete the commits in different ways,
 allowing you to add different files to a repository from your working directory
 using different commits, not in a single one. Sometimes it can really help
 to support logic behind your committing style.
+
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+With staging area, we can use git diff, git diff --staged, git add commands to
+make sure we have one commit per logical change. We may choose wisely which
+files do we want to commit into the project repository.
