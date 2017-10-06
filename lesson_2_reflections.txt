@@ -34,3 +34,12 @@ into the main branch.
 How do the diagrams help you visualize the branch structure?
 
 They help a lot.
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The result of mergin is commit which connects two previous commits (two branches)
+into the one. In the diagram we show the parent arrow to both of the two
+pre-merged branches. Git log will result with all the commits of two branches,
+sorted by a timestamp.
