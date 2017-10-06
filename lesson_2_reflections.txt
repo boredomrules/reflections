@@ -20,3 +20,12 @@ change?
 With staging area, we can use git diff, git diff --staged, git add commands to
 make sure we have one commit per logical change. We may choose wisely which
 files do we want to commit into the project repository.
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches can help you organize the unsure, unready and experimental changes you
+work on in your project, leaving the main (master) branch stable. Also it helps
+organize different directions of the software design to merge them later back
+into the main branch.
