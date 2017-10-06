@@ -29,3 +29,8 @@ Branches can help you organize the unsure, unready and experimental changes you
 work on in your project, leaving the main (master) branch stable. Also it helps
 organize different directions of the software design to merge them later back
 into the main branch.
+
+
+How do the diagrams help you visualize the branch structure?
+
+They help a lot.
