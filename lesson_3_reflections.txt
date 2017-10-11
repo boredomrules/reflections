@@ -12,3 +12,14 @@ automatically stay up-to-date with your remote repository?
 Manual pulling helps you to manage logic behind any changes and provides the
 opportunity to leave your work hidden until it will become ready for pulling to
 the public remote.
+
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+Branches are different labels in committing history. You can merge them, checkout
+them etc.
+Clones are just local copies of a repository. It can be a copy of remote
+repository hosted on GitHub or a copy of some local repository.
+Fork is a 'remote clone' of a remote repository with a link to its original
+author.
