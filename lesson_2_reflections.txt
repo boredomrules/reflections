@@ -43,3 +43,11 @@ The result of mergin is commit which connects two previous commits (two branches
 into the one. In the diagram we show the parent arrow to both of the two
 pre-merged branches. Git log will result with all the commits of two branches,
 sorted by a timestamp.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+Automatic merging is quick and efficient when differences are simple enough so
+algorythm can provide useful and expected result. Manual merging is time
+expensive so we want to use it only for solving special conflicts, not always.
