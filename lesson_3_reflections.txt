@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Remote repository helps sharing the project with target users, collaborating with other programmers and simply
+syncing between different computers.
